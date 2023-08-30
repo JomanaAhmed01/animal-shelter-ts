@@ -5,6 +5,7 @@ import Banner from "../components/HomePage/Banner";
 import Volunteer from "../components/HomePage/Volunteer";
 import AdoptableAnimals from "../components/HomePage/AdoptableAnimals";
 import Events from "../components/HomePage/Events";
+import Footer from "../components/HomePage/Footer";
 
 function HomePageCompound() {
   return (
@@ -14,6 +15,7 @@ function HomePageCompound() {
       <Volunteer />
       <AdoptableAnimals />
       <Events />
+      <Footer />
     </Wrapper>
   );
 }
