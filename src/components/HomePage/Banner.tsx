@@ -114,6 +114,7 @@ export const IconWrapper = styled.div`
 
   @media screen and (max-width: 1090px) {
     margin-left: 140px;
+    margin-bottom: 30px;
   }
 
   @media screen and (max-width: 565px) {
