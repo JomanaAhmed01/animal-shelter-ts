@@ -4,6 +4,7 @@ import Navbar from "../components/HomePage/Navbar";
 import Banner from "../components/HomePage/Banner";
 import Volunteer from "../components/HomePage/Volunteer";
 import AdoptableAnimals from "../components/HomePage/AdoptableAnimals";
+import Events from "../components/HomePage/Events";
 
 function HomePageCompound() {
   return (
@@ -12,6 +13,7 @@ function HomePageCompound() {
       <Banner />
       <Volunteer />
       <AdoptableAnimals />
+      <Events />
     </Wrapper>
   );
 }
