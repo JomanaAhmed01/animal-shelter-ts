@@ -39,9 +39,18 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   padding-top: 50px;
+
+  @media screen and (max-width: 1130px) {
+    flex-direction: column;
+  }
 `;
 
-export const AdoptableDogsWrapper = styled.div``;
+export const AdoptableDogsWrapper = styled.div`
+  @media screen and (max-width: 1130px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+`;
 
 export const AdoptableDogsImagesWrapper = styled.div``;
 
@@ -49,6 +58,11 @@ export const DogImageOne = styled.img`
   width: 208px;
   height: 156px;
   border: 10px solid #ffffff;
+
+  @media screen and (max-width: 565px) {
+    width: 132px;
+    height: 100px;
+  }
 `;
 
 export const DogImageTwo = styled.img`
@@ -56,11 +70,22 @@ export const DogImageTwo = styled.img`
   height: 156px;
   border: 10px solid #ffffff;
   margin-left: 20px;
+
+  @media screen and (max-width: 565px) {
+    width: 132px;
+    height: 100px;
+  }
 `;
 
 export const AdoptableDogsHeaderWrapper = styled.div`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1130px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const StarIcon = styled(Stars)`
@@ -68,15 +93,29 @@ export const StarIcon = styled(Stars)`
   width: 20px;
   height: 20px;
   padding-right: 10px;
+
+  @media screen and (max-width: 1130px) {
+    margin-bottom: -20px;
+  }
 `;
 
 export const AdoptableDogsHeader = styled.p`
-  color: #E1533C;
+  color: #e1533c;
   font-size: 29px;
   font-weight: bold;
+
+  @media screen and (max-width: 565px) {
+    font-size: 27px;
+  }
 `;
 
-export const AdoptableCatsWrapper = styled.div``;
+export const AdoptableCatsWrapper = styled.div`
+  @media screen and (max-width: 1130px) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+`;
 
 export const AdoptableCatsImagesWrapper = styled.div``;
 
@@ -84,6 +123,11 @@ export const CatImageOne = styled.img`
   width: 208px;
   height: 156px;
   border: 10px solid #ffffff;
+
+  @media screen and (max-width: 565px) {
+    width: 132px;
+    height: 100px;
+  }
 `;
 
 export const CatImageTwo = styled.img`
@@ -91,17 +135,32 @@ export const CatImageTwo = styled.img`
   height: 156px;
   border: 10px solid #ffffff;
   margin-left: 20px;
+  
+  @media screen and (max-width: 565px) {
+    width: 132px;
+    height: 100px;
+  }
 `;
 
 export const AdoptableCatsHeaderWrapper = styled.div`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1130px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const AdoptableCatsHeader = styled.p`
-  color: #E1533C;
+  color: #e1533c;
   font-size: 29px;
   font-weight: bold;
+  
+  @media screen and (max-width: 565px) {
+    font-size: 27px;
+  }
 `;
 
 export default AdoptableAnimals;
