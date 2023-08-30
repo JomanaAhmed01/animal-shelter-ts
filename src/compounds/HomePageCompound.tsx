@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Navbar from "../components/HomePage/Navbar";
 import Banner from "../components/HomePage/Banner";
 import Volunteer from "../components/HomePage/Volunteer";
+import AdoptableAnimals from "../components/HomePage/AdoptableAnimals";
 
 function HomePageCompound() {
   return (
@@ -10,6 +11,7 @@ function HomePageCompound() {
       <Navbar />
       <Banner />
       <Volunteer />
+      <AdoptableAnimals />
     </Wrapper>
   );
 }
