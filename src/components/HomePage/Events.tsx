@@ -70,6 +70,7 @@ export const InnerWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
+  padding-bottom: 100px;
 
   @media screen and (max-width: 1130px) {
     flex-direction: column;
