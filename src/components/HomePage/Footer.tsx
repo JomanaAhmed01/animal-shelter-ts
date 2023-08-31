@@ -47,11 +47,25 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+    height: auto;
+  }
+
+  @media screen and (max-width: 565px) {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 `;
 
 export const RightsWrapper = styled.div`
   display: flex;
   align-items: flex-start;
+  /* border: 3px solid red; */
 `;
 
 export const RightsIconWrapper = styled.div`
@@ -90,6 +104,13 @@ export const SocialMediaWrapper = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 700px;
+
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    /* border: 3px solid red; */
+  }
 `;
 
 export const TwitterWrapper = styled.div`
@@ -115,6 +136,10 @@ export const FacebookWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 170px;
+
+  @media screen and (max-width: 565px) {
+    width: 180px;
+  }
 `;
 
 export const FacebookIcon = styled(Facebook)`
