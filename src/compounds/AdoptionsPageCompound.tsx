@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import Navbar from "../components/AdoptionsPage/Navbar";
+import Navbar, { Adoptions } from "../components/AdoptionsPage/Navbar";
 
 function AdoptionsPageCompound() {
   return (
     <Wrapper>
       <Navbar />
+      <Adoptions />
     </Wrapper>
   );
 }
