@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import Navbar, { Adoptions } from "../components/AdoptionsPage/Navbar";
+import Navbar from "../components/AdoptionsPage/Navbar";
+import Adoptions from "../components/AdoptionsPage/Adoptions";
 
 function AdoptionsPageCompound() {
   return (
