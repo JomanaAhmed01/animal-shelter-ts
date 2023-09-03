@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { Stars } from "@styled-icons/bootstrap/Stars";
-import { Twitter } from '@styled-icons/boxicons-logos/Twitter'
-import { Facebook } from '@styled-icons/boxicons-logos/Facebook'
-import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
+import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
+import { Facebook } from "@styled-icons/boxicons-logos/Facebook";
+import { Youtube } from "@styled-icons/boxicons-logos/Youtube";
 
 function Footer() {
   return (
@@ -123,11 +123,11 @@ export const TwitterWrapper = styled.div`
 export const TwitterIcon = styled(Twitter)`
   width: 24px;
   height: 24px;
-  color: #F9E6E4;
+  color: #f9e6e4;
 `;
 
 export const TwitterFollow = styled.p`
-  color: #F9E6E4;
+  color: #f9e6e4;
   font-size: 14px;
 `;
 
@@ -145,11 +145,11 @@ export const FacebookWrapper = styled.div`
 export const FacebookIcon = styled(Facebook)`
   width: 24px;
   height: 24px;
-  color: #F9E6E4;
+  color: #f9e6e4;
 `;
 
 export const FacebookFollow = styled.p`
-  color: #F9E6E4;
+  color: #f9e6e4;
   font-size: 14px;
 `;
 
@@ -163,11 +163,11 @@ export const YoutubeWrapper = styled.div`
 export const YoutubeIcon = styled(Youtube)`
   width: 24px;
   height: 24px;
-  color: #F9E6E4;
+  color: #f9e6e4;
 `;
 
 export const YoutubeFollow = styled.p`
-  color: #F9E6E4;
+  color: #f9e6e4;
   font-size: 14px;
 `;
 
