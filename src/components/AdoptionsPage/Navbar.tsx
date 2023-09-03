@@ -80,13 +80,13 @@ export const NavWrapper = styled.div`
 `
 
 export const Home = styled.p`
-  color: #000000;
+  color: #E1533C;
   font-size: 15px;
   cursor: pointer;
 `
 
 export const Adoptions = styled.p`
-  color: #E1533C;
+  color: #000000;
   font-size: 15px;
   cursor: pointer;
 `
