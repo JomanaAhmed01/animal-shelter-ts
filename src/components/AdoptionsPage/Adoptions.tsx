@@ -53,6 +53,7 @@ function Adoptions() {
 export const Wrapper = styled.div`
   background-color: #ffe6ff;
   border: 1px solid transparent;
+  padding-bottom: 70px;
 `;
 
 export const HeaderWrapper = styled.div`
